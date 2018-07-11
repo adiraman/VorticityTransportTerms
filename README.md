@@ -1,4 +1,5 @@
 This is a post processing application that calculates the terms in the X-component of the integral form of the vorticity transport equation. This application saves the computed fields and writes it in the respective time directories. The following quantities are written:-
+
 ```
 1) vorticity and magVorticity
 2) vortConvection -- convection of vorticity term
@@ -7,6 +8,7 @@ This is a post processing application that calculates the terms in the X-compone
 5) yTilting       -- term signifying the y tilt of vorticity
 6) zTilting       -- term signifying the z tilt of vorticity 
 ```
+
 An integral analysis of the vorticity transport equation can then be performed by
 sampling these fields over definitive contours and taking the surface area integral.
 
